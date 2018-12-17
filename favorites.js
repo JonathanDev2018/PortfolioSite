@@ -30,7 +30,7 @@ function DrawFavorites() {
     listItem.innerHTML =
       "<img src='"
       + thingImages[i]
-      + "' title='"
+      + "' width=250px title='"
       + thingNames[i]
       +  "' />";
 
