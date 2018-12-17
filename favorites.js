@@ -28,11 +28,12 @@ function DrawFavorites() {
     var listItem = document.createElement("li");
 
     listItem.innerHTML =
-      "<img src='"
+      "<div class='imageBox' style='background-image:url("
       + thingImages[i]
-      + "' width=250px title='"
+      +")' >"
       + thingNames[i]
-      +  "' />";
+
+      + "</div>";
 
     targetElement.appendChild(listItem);
 
