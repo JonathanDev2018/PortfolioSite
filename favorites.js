@@ -3,7 +3,7 @@ console.log("favorites.js loaded");
 
 function DrawFavorites() {
 
-  var things =[
+  var thingNames =[
     "iguanas",
     "edm",
     "food",
@@ -11,15 +11,28 @@ function DrawFavorites() {
     "nature"
   ];
 
+  var thingImages =[
+    "iguana1.jpg",
+    "edmfest.jpg",
+    "foodie.jpg",
+    "pokemonghost.jpg",
+    "nature.jpg"
+  ];
+
   var targetElement = document.getElementById("favorites");
 
-  for (var i=0;i<things.length;i++){
+  for (var i=0;i<thingNames.length;i++){
 
-    var thing = things[i];
+    var thing = thingNames[i];
 
     var listItem = document.createElement("li");
 
-    listItem.innerText = thing;
+    listItem.innerHTML =
+      "<img src='"
+      + thingImages[i]
+      + "' title='"
+      + thingNames[i]
+      +  "' />";
 
     targetElement.appendChild(listItem);
 
