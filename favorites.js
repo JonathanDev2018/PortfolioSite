@@ -4,11 +4,13 @@ console.log("favorites.js loaded");
 function DrawFavorites() {
 
   var thingNames =[
-    "iguanas",
-    "edm",
-    "food",
-    "pokemon",
-    "nature"
+    "Iguanas",
+    "EDM",
+    "Food",
+    "Pokemon",
+    "Nature",
+    "Travel",
+    "Dance"
   ];
 
   var thingImages =[
@@ -16,7 +18,9 @@ function DrawFavorites() {
     "edmfest.jpg",
     "foodie.jpg",
     "pokemonghost.jpg",
-    "nature.jpg"
+    "nature.jpg",
+    "festivalblue.jpg",
+    "ravemachine.jpg"
   ];
 
   var targetElement = document.getElementById("favorites");
