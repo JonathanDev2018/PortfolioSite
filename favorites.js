@@ -14,13 +14,13 @@ function DrawFavorites() {
   ];
 
   var thingImages =[
-    "iguana1.jpg",
-    "edmfest.jpg",
-    "foodie.jpg",
-    "pokemonghost.jpg",
-    "nature.jpg",
-    "festivalblue.jpg",
-    "ravemachine.jpg"
+    "favimages/iguana1.jpg",
+    "favimages/edmfest.jpg",
+    "favimages/foodie.jpg",
+    "favimages/pokemonghost.jpg",
+    "favimages/nature.jpg",
+    "favimages/festivalblue.jpg",
+    "favimages/ravemachine.jpg"
   ];
 
   var targetElement = document.getElementById("favorites");
