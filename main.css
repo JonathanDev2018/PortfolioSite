@@ -25,3 +25,9 @@ h1 {
   text-shadow: #000 2px 2px;
   font-size: 1.5em;
 }
+
+a {
+  color: yellow;
+  text-decoration: none;
+
+}
